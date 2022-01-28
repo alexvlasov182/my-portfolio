@@ -29,7 +29,7 @@ const Doably = () => {
       {/* Image FocalPoint */}
       <div className="about-img">
         <StaticImage
-          src="../images/doably-main.jpg"
+          src="../images/main-screen-img.png"
           width={1140}
           quality={95}
           formats={["AUTO", "WEBP", "AVIF"]}

@@ -8,8 +8,8 @@ const Main = () => (
     <div className="about-block">
       <div className="front-block">
         <StaticImage
-          src="https://pbs.twimg.com/profile_images/554798224154701824/mWd3laxO.png"
-          width={300}
+          src="../images/my-front-img.png"
+          width={200}
           quality={95}
           formats={["AUTO", "WEBP", "AVIF"]}
           alt="A Gatsby astronaut"
@@ -22,38 +22,32 @@ const Main = () => (
       </div>
       <p className="paragraph">
         <strong>
-          Passionate about designing technologies to enrich people’s quality of
-          life.
+          Passionate about developing technologies and development on server
+          side.
         </strong>
-        <br />I grew up as a multi-disciplinary designer with a broad approach.
-        But for the last 4 years with{" "}
-        <Link
-          className="hover-leansquad"
-          rel="noreferrer"
-          target="_blank"
-          to="https://mvpnow.studio/team"
-        >
-          LeanSquad,
-        </Link>{" "}
-        I have focused on being a T-shaped UX/UI and Product designer.
+        <br />I have a little e-commerce experience in markup, but I have a
+        great desire to work and learn. I spend all my free time practicing
+        PHP/Laravel development.{" "}
       </p>
 
       <p className="paragraph paragraph-bottom">
-        I mainly developed large CRM systems and company products. In addition
-        to creating complex systems with a simple user experience, I have
-        experience working <br /> with:
+        I want to find hard and interesting project, that will allow me to apply
+        and improve my skills and knowledge <br /> I also did these projects
+        myself:
       </p>
       <ul className="list-item">
-        <li>Creating journey maps, personas and wireframes,</li>
-        <li>UX research and testing,</li>
-        <li>Information architecture,</li>
-        <li>Style guides and atomic design systems,</li>
-        <li>Design concepts, prototypes.</li>
+        <li>Simple http server,</li>
+        <li>CRUD,</li>
+        <li>Creating cross-browser, semantic and valid code,</li>
+        <li>
+          Developing and implement a grid system (Media queries, Bootstrap) for
+          mobile responsiveness,
+        </li>
       </ul>
       <p className="paragraph paragraph-margin">
-        When it comes to work, my motto is `Simple is better`. Therefore, I
-        prefer clean and minimalist design. I try to create simple and fun
-        experiences for people who appreciate elegant and dynamic efficiency.
+        In my spare time, I study the Golang language, I am very interested in
+        this direction, it is a very interesting language with static typing and
+        fast compilation to bytecode
       </p>
     </div>
   </Layout>

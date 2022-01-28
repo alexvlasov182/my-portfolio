@@ -38,7 +38,15 @@ const Footer = () => (
       <NavLink
         className="hover-link-footer"
         target="_blank"
-        to="https://www.linkedin.com/in/anastasiia-vlasova-a8b36216b/"
+        to="https://github.com/alexvlasov182"
+        activeClassName="current-page"
+      >
+        GitHub
+      </NavLink>
+      <NavLink
+        className="hover-link-footer"
+        target="_blank"
+        to="https://www.linkedin.com/in/alexandr-vlasov-9969ab19b/"
         activeClassName="current-page"
       >
         LinkedIn
@@ -46,18 +54,18 @@ const Footer = () => (
       <NavLink
         className="hover-link-footer"
         target="_blank"
-        to="https://www.behance.net/anastasiya503d2"
+        to="https://alexvlasov182.github.io/site/concept/index.html"
         activeClassName="current-page"
       >
-        Behance
+        Paste in Work and describe
       </NavLink>
       <NavLink
         className="hover-link-footer"
         target="_blank"
-        to="https://dribbble.com/leansquad"
+        to="https://alexvlasov182.github.io/site/mixlab/index.html"
         activeClassName="current-page"
       >
-        Dribbble
+        Paste in Work and describe and this to
       </NavLink>
     </nav>
   </footer>

@@ -43,7 +43,7 @@ const Header = () => (
       <NavLink
         className="hover-link"
         target="_blank"
-        to="https://drive.google.com/file/d/1tSfC4kBZ9FeBVTdPLvKPyeQGpC_WEX3I/view"
+        to="https://drive.google.com/file/d/11BLo1SykZhX3OX26eyHOQWU4Gw-nhg6y/view?usp=sharing"
         activeClassName="current-page"
       >
         Resume

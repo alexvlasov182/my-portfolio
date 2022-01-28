@@ -90,7 +90,7 @@ const SecondPage = () => (
               data-sal-easing="ease"
             >
               <StaticImage
-                src="../images/doably.png"
+                src="../images/concept-img.png"
                 width={548}
                 height={424}
                 quality={100}
@@ -129,31 +129,6 @@ const SecondPage = () => (
                 </Card.Title>
                 <Card.Text className="text-center subtitle-color">
                   Tool that helps users to choose and buy healthy food
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Link>
-        </Col>
-        <Col lg={6}>
-          <Link className="card-link" to="/mvp">
-            <Card
-              className="card-hover"
-              data-sal="slide-up"
-              data-sal-duration="600"
-              data-sal-easing="ease"
-            >
-              <StaticImage
-                src="../images/mvp.png"
-                width={548}
-                height={424}
-                quality={100}
-                formats={["AUTO", "WEBP", "AVIF"]}
-                alt="A Gatsby astronaut"
-              />
-              <Card.Body>
-                <Card.Title className="text-center darken">MVP Now</Card.Title>
-                <Card.Text className="text-center subtitle-color">
-                  No code platform
                 </Card.Text>
               </Card.Body>
             </Card>
