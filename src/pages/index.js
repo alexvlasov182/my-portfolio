@@ -15,8 +15,8 @@ const Main = () => (
           style={{ marginBottom: `1.45rem` }}
         />
         <h1 className="main-header">
-          Hi, my name is Alex and I’m a BackEnd developer with more than 0.6
-          month of experience.
+          Hi, my name is Alex and I’m a BackEnd developer with more than 6
+          months of experience.
         </h1>
       </div>
       <p className="paragraph">
