@@ -11,18 +11,7 @@ const SecondPage = () => (
   <Layout>
     <Container>
       <div className="block-work">
-        <h2 className="title-text">
-          {" "}
-          When it comes to work, <br /> my motto is “Simple is better"{" "}
-        </h2>
-        <StaticImage
-          src="../images/sparkles_2728.png"
-          width={89}
-          height={89}
-          quality={100}
-          formats={["AUTO", "WEBP", "AVIF"]}
-          alt="A Gatsby astronaut"
-        />
+        <h2 className="title-text"> My Works </h2>
       </div>
 
       <Row>

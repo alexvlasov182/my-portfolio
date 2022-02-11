@@ -59,14 +59,6 @@ const Footer = () => (
       >
         Paste in Work and describe
       </NavLink>
-      <NavLink
-        className="hover-link-footer"
-        target="_blank"
-        to="https://alexvlasov182.github.io/site/mixlab/index.html"
-        activeClassName="current-page"
-      >
-        Paste in Work and describe and this to
-      </NavLink>
     </nav>
   </footer>
 )
