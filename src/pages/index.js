@@ -7,7 +7,7 @@ const Main = () => (
     <div className="about-block">
       <div className="front-block">
         <StaticImage
-          src="../images/my-front-img.png"
+          src="../images/iandmac.jpeg"
           width={200}
           quality={95}
           formats={["AUTO", "WEBP", "AVIF"]}
